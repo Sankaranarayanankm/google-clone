@@ -9,13 +9,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;  
+  padding: 10px 20px;
 }
 
 .home__header a {
   margin-right: 20px;
   text-decoration: inherit;
-  color:rgba(0, 0, 0, .89);
+  color: rgba(0, 0, 0, 0.89);
   font-size: 1rem;
 }
 
@@ -23,18 +23,22 @@
   text-decoration: underline;
 }
 
-.home__headerRight{
+.home__headerRight {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:1rem;
+  gap: 1rem;
   min-width: 13vw;
 }
 
-.home__body{
-
+.home__body {
+  display: flex;
+  flex: 1; /*  flex 1 means this can take the majority space of its parent here its home*/
+  align-items: center;
+  margin-top: 10%;
+  flex-direction: column;
 }
-.home__body  img{
-object-fit: contain; /* This is used to specify how an element such as img or video should be resized to fit its container  */
-height: 100px;
+.home__body img {
+  object-fit: contain; /* This is used to specify how an element such as img or video should be resized to fit its container  */
+  height: 100px;
 }
