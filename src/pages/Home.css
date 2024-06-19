@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;  
+}
+
+.home__header a {
+  margin-right: 20px;
+  text-decoration: inherit;
+  color:rgba(0, 0, 0, .89);
+  font-size: 1rem;
+}
+
+.home__header a:hover {
+  text-decoration: underline;
+}
+
+.home__headerRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:1rem;
+  min-width: 13vw;
+}
+
+.home__body{
+
+}
+.home__body  img{
+object-fit: contain; /* This is used to specify how an element such as img or video should be resized to fit its container  */
+height: 100px;
+}
