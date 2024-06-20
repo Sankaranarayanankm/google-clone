@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import { Route, Switch } from "react-router-dom";
 import NotFound from "./pages/NotFound";
-import SearchDetails from "./components/SearchDetails";
+import SearchPage from "./components/SearchPage";
 const App = () => {
   return (
     <div>
@@ -15,7 +15,7 @@ const App = () => {
           <Search />
         </Route> */}
         <Route path="/:searchId">
-          <SearchDetails />
+          <SearchPage />
         </Route>
         <Route path="*">
           <NotFound />

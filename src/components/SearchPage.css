@@ -1,0 +1,25 @@
+.searchPage__header {
+  display: flex;
+  top: 0;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__headerBody > .search > .search__input {
+  margin-top: 0;
+  width: unset; 
+  margin: unset;
+  max-width: unset;
+  /*   what unset do is it sets its value to inherited value if no parent element then it set to default value defined by css specification*/
+}
+
+.searchPage__logo {
+  
+  object-fit: contain;
+  height: 50px;
+  margin-right: 50px;
+}
