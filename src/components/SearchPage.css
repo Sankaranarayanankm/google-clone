@@ -43,17 +43,60 @@
   color: grey;
 }
 
-.searchPage__optionRight{
-  margin-left:80px ;
+.searchPage__optionRight {
+  margin-left: 80px;
 }
 
-.searchPage__option{
+.searchPage__option {
   display: flex;
   align-items: center;
-  margin-right:20px;
+  margin-right: 20px;
+}
+
+.searchPage__option a {
+  margin-left: 5px;
+}
+
+.searchPage__result {
+  margin: 40px 0;
+
+}
+
+.searchPage__resultCount{
+color:#70757a;
+font-size: 14px;
 }
 
 
-.searchPage__option a {
-  margin-left:5px;
+.searchPage__results{
+max-width: 650px;
+margin-top: 20px;
+margin-left: 240px;
+margin-bottom: 100px;
+}
+
+.searchPage__resultTitle{
+  text-decoration: none;
+  margin:0;
+}
+
+.searchPage__resultTitle:hover{
+  text-decoration: underline;
+}
+
+
+.searchPage__resultTitle> h2{
+  font-weight: 500;
+  margin:10px;
+}
+
+.searchPage__resultSnippet{
+  margin:0;
+}
+
+.searchPage__resultImage  {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right:10px;
 }
