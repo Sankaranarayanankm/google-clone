@@ -11,15 +11,49 @@
 
 .searchPage__headerBody > .search > .search__input {
   margin-top: 0;
-  width: unset; 
+  width: unset;
   margin: unset;
   max-width: unset;
   /*   what unset do is it sets its value to inherited value if no parent element then it set to default value defined by css specification*/
 }
 
 .searchPage__logo {
-  
   object-fit: contain;
   height: 50px;
   margin-right: 50px;
+}
+
+.searchPage__options {
+  display: flex;
+
+  align-items: center;
+  /* justify-content: space-between; */
+  color: grey;
+}
+
+.searchPage__optionRight,
+.searchPage__optionLeft {
+  display: flex;
+  /* gap:5px; */
+}
+
+.searchPage__optionRight a,
+.searchPage__options a {
+  text-decoration: none;
+  color: grey;
+}
+
+.searchPage__optionRight{
+  margin-left:80px ;
+}
+
+.searchPage__option{
+  display: flex;
+  align-items: center;
+  margin-right:20px;
+}
+
+
+.searchPage__option a {
+  margin-left:5px;
 }
